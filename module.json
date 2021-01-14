@@ -1,0 +1,53 @@
+{
+    "name": "d35e-sunless-citadel",
+    "title": "3.5e Adventure Companion - Sunless Citadel",
+    "description": "",
+    "version": "0.9.0",
+    "minimumCoreVersion": "0.6.6",
+    "compatibleCoreVersion": "1.0.0",
+    "minimumSystemVersion": "0.88.0",
+    "scripts": ["./module/importer.js"],
+    "esmodules": [],
+    "styles": [],
+    "packs": [
+      {
+        "label": "Sunless Citadel NPCs",
+        "entity": "Actor",
+        "name": "npcs",
+        "path": "packs/npcs.db",
+        "system": "D35E"
+      },
+      {
+        "label": "Sunless Citadel Traps",
+        "entity": "Actor",
+        "name": "traps",
+        "path": "packs/traps.db",
+        "system": "D35E"
+      },
+      {
+        "label": "Sunless Citadel Journal",
+        "entity": "JournalEntry",
+        "name": "journal",
+        "path": "packs/journal.db"
+      },
+      {
+        "label": "Sunless Citadel Items",
+        "entity": "Item",
+        "name": "items",
+        "path": "packs/items.db",
+        "system": "D35E"
+      },
+      {
+        "label": "Sunless Citadel Scenes",
+        "entity": "Scene",
+        "name": "scenes",
+        "path": "packs/scenes.db"
+      }
+    ],
+    "languages": [],
+    "authors": [],
+    "socket": false,
+    "url": "https://github.com/rughalt/d35e-sunless-citadel",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced"
+  }
