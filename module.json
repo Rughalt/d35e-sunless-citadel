@@ -2,7 +2,7 @@
     "name": "d35e-sunless-citadel",
     "title": "3.5e Adventure Companion - Sunless Citadel",
     "description": "",
-    "version": "0.9.0",
+    "version": "0.9.5",
     "minimumCoreVersion": "0.6.6",
     "compatibleCoreVersion": "1.0.0",
     "minimumSystemVersion": "0.88.0",
@@ -13,8 +13,15 @@
       {
         "label": "Sunless Citadel NPCs",
         "entity": "Actor",
-        "name": "npcs",
+        "name": "named",
         "path": "packs/npcs.db",
+        "system": "D35E"
+      },
+      {
+        "label": "Sunless Citadel Monsters",
+        "entity": "Actor",
+        "name": "npcs",
+        "path": "packs/monsters.db",
         "system": "D35E"
       },
       {

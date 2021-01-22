@@ -12,15 +12,12 @@ Hooks.on("renderCompendium", (app, html, data) => {
             Dialog.confirm({
                     title: "3.5e Adventure Companion - Sunless Citadel Importer",
                     content: "<p>Welcome to the <strong>Sunless Citadel</strong> adventure companion module for 3.5E SRD. Would you like to import all adventure content to your World?",
-                    yes: () => importLabors()
+                    yes: () => importData()
             });
     }
 });
 
-/**
-* Import content for all the labors
-*/
-async function importLabors() {
+async function importData() {
     const module = game.modules.get("d35e-sunless-citadel");
     let scenes = null;
     let actors = [];
