@@ -18,4 +18,8 @@ Treasures found during adventuring are all added so you can easily distribute th
 ## Installation
 Install this module using following url: https://github.com/Rughalt/d35e-sunless-citadel/releases/latest/download/module.json
 
+## Licenses, autors and copyrights
+Map renditions by Antoni "Rughalt" Sobkowicz. Maps use assets from Forgotten Adventures (https://forgotten-adventures.net) and Tom Cartos (https://www.patreon.com/tomcartos). Tree image from Forgotten Adventures. Glass Whistle item icon by Mesignosis.
+
 _Image used in this description is used according to Fan Content Policy._
+
