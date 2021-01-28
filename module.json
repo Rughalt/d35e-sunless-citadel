@@ -56,5 +56,11 @@
     "socket": false,
     "url": "https://github.com/rughalt/d35e-sunless-citadel",
     "manifest": "This is auto replaced",
-    "download": "This is auto replaced"
+    "download": "This is auto replaced",
+    "media": [
+      {
+        "type": "cover",
+        "link": "https://legaciesofthedragon.com/img/logo-d35e-sc-bazaar.png"
+      }
+    ]
   }
