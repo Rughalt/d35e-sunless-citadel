@@ -6,8 +6,8 @@ _This is only an adventure companion. To play Sunless Citadel adventure you will
 ## Welcome to 3.5e Adventure Companion for Sunless Citadel
 This companion is designed to help you easily run one of the Classic adventures for 3.5 edition of Dungeons & Dragons. With ready to be used maps filled with monsters that are waiting for adventurers, items that you can give to party and traps ready to be sprung, this companion will allow you to focus on the adventure - not the preparation stuff.
 
-### Using the Companiona
-To import data from this companium module into your game, install it, activate and then open any of the companion Compendiums. Window will appear that will allow yo to import companion data to your world!
+### Using the Companion
+To import data from this companion module into your game, install it, activate and then open any of the companion Compendiums. Window will appear that will allow yo to import companion data to your world!
 
 ### Maps
 This companion has core maps of the adventure prepared. Both levels of Citadel and Oakhurst are remade, with lighting, walls and hazards set up. Each room is numbered so you can easily refer to original adventure for reference.
