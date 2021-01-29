@@ -1,4 +1,5 @@
 # 3.5e Adventure Companion - Sunless Citadel
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Rughalt/d35e-sunless-citadel/latest/module.zip?color=green&label=Module%20Downloads&style=flat-square)
 
 **3.5e Adventure Companion - Sunless Citadel is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.**
 
