@@ -36,7 +36,8 @@ async function importData() {
     // Re-associate Tokens for all scenes
     const sceneUpdates = [];
     for ( let s of scenes.entities ) {
-            const tokens = s.data.tokens.map(t => {
+            const tokens = s.data.tokens.map(_t => {
+                    t = duplicate(_t);
                     for (let actorsDirectory of actors) {
                         const a = actorsDirectory.entities.find(a => a.name === t.name);
                         if (a) {
