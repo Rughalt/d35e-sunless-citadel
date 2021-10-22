@@ -8,7 +8,7 @@ Hooks.on("init", () => {
 })
 
 Hooks.on("renderCompendium", (app, html, data) => {
-    if ( data.collection.startsWith("d35e-sunless-citadel.") && !game.settings.get("d35e-sunless-citadel", "imported") ) {
+    if ( data.collection.collection.startsWith("d35e-sunless-citadel.") && !game.settings.get("d35e-sunless-citadel", "imported") ) {
             Dialog.confirm({
                     title: "3.5e Adventure Companion - Sunless Citadel Importer",
                     content: "<p>Welcome to the <strong>Sunless Citadel</strong> adventure companion module for 3.5E SRD. Would you like to import all adventure content to your World?",
