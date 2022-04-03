@@ -26,7 +26,7 @@ async function importData() {
             const pack = game.packs.get("d35e-sunless-citadel."+p.name);
             if ( p.entity !== "Playlist" ) await pack.importAll();
             else {
-                    const music = await pack.getContent();
+                    const music = await pack.getDocuments();
                     Playlist.create(music.map(p => p.data));
             }
             if ( p.entity === "Scene" ) scenes = game.folders.getName(p.label);
@@ -35,11 +35,11 @@ async function importData() {
 
     // Re-associate Tokens for all scenes
     const sceneUpdates = [];
-    for ( let s of scenes.entities ) {
+    for ( let s of scenes.contents ) {
             const tokens = s.data.tokens.map(_t => {
                     t = duplicate(_t);
                     for (let actorsDirectory of actors) {
-                        const a = actorsDirectory.entities.find(a => a.name === t.name);
+                        const a = actorsDirectory.contents.find(a => a.name === t.name);
                         if (a) {
                                 t.actorId = a ? a.id : null;
                                 t.actorLink = a ? a.data?.token?.actorLink || false : false;
@@ -49,7 +49,7 @@ async function importData() {
             });
             sceneUpdates.push({_id: s.id, tokens});
     }
-    await Scene.update(sceneUpdates);
+    await Scene.updateDocuments(sceneUpdates);
 
     // Activate the splash page
     const s0 = game.scenes.getName("Sunless Citadel");
